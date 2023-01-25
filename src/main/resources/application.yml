@@ -1,0 +1,9 @@
+spring:
+  r2dbc:
+    url: r2dbc:oracle:thin//127.0.0.1:1521/test
+    username: test
+    password: test
+  cloud:
+   gcp:
+    project-id: abstract-banner-375811
+    credentials.location: file:C:\Projects\ReactiveClob\src\main\resources\templates\key_google.json
